@@ -18,6 +18,7 @@ public class LoginSteps {
 	public void user_enters_valid_username_and_password() {
 	    // Write code here that turns the phrase above into concrete actions
 	  //  throw new io.cucumber.java.PendingException();
+		System.out.println("User has entered valid credentials");
 	}
 
 	@And("clicks on the login button")
@@ -30,5 +31,6 @@ public class LoginSteps {
 	public void user_is_navigated_to_the_dashboard() {
 	    // Write code here that turns the phrase above into concrete actions
 	   // throw new io.cucumber.java.PendingException();
+		System.out.println("User is navigated to the dashboard");
 	}
 }
