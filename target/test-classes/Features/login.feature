@@ -10,6 +10,7 @@ Feature: Feature to verify the login functionality
     When user enters valid username and password
     And clicks on the login button
     Then user is navigated to the dashboard
+    
 #  @tag2
 # 	Scenario Outline: Title of your scenario outline
 # 	Given I want to write a step with <name>
